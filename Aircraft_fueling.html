@@ -29,6 +29,7 @@
       padding: 0;
       margin: 0;
       background-color: #000000;
+      padding-bottom: 60px;
     }
 
     .container {
@@ -177,128 +178,6 @@
       font-weight: 600;
       max-width: 800px;
     }
-    .fa {
-      padding: 8px 4px;
-      font-size: 16px;
-      width: 32px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-      background-color: #bda55d;
-      border-radius: 50%;
-      color: #000000;
-    }
-    footer {
-      color: #fff;
-      padding: 40px 0 40px;
-    }
-    footer .container {
-      max-width: 800px;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
-    }
-
-    footer .img-logo {
-      text-align: center;
-      padding-right: 0;
-      border-right: none;
-      margin-bottom: 20px;
-    }
-    footer .footer-logo {
-      width: 150px;
-      margin-bottom: 20px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    footer .footer-logo img {
-      max-width: 100%;
-    }
-    footer .contact-info {
-      margin-left: 0px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    footer .contact-info .info {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-    }
-    footer .info .head {
-      display: block;
-      font-size: 16px;
-      font-weight: 600;
-      color: #bda55d;
-      margin-bottom: 8px;
-    }
-    footer .info .contact-info-calls,
-    footer .info .contact-info-location {
-      line-height: 20px;
-      font-size: 14px;
-      font-weight: 400;
-      margin-bottom: 15px;
-    }
-    footer .info .contact-info-calls span,
-    footer .info .contact-info-location span {
-      display: block;
-    }
-    footer .info .contact-info-location {
-      max-width: 300px;
-      margin: 0 auto;
-    }
-    footer .copyright {
-      border-top: 2px solid #fff;
-      margin-top: 20px;
-      padding-top: 20px;
-      font-size: 14px;
-      font-weight: 600;
-      color: #bda55d;
-    }
-    @media (min-width: 768px) {
-      footer {
-        color: #fff;
-        padding: 80px 0 80px;
-      }
-      footer .container {
-        flex-direction: row;
-      }
-      footer .footer-logo img {
-        max-width: 100%;
-        margin-left: 0px;
-        margin-right: 0px;
-      }
-      footer .img-logo {
-        padding-right: 30px;
-        border-right: 2px solid #fff;
-        margin-bottom: 0;
-      }
-      footer .contact-info {
-        text-align: left;
-        margin-left: 30px;
-      }
-      footer .contact-info .info {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-      }
-      footer .info .contact-info-calls,
-      footer .info .contact-info-location {
-        margin-bottom: 0;
-      }
-      footer .info .contact-info-location {
-        margin-left: 15px;
-      }
-      footer .copyright {
-        border-top: none;
-        margin-top: 0;
-        padding-top: 0;
-        font-size: 14px;
-        font-weight: 600;
-        color: #bda55d;
-      }
-    }
     .btns {
       width: 100%;
       margin: 40px auto 0px;
@@ -325,9 +204,6 @@
     <!-- Header -->
     <div class="header">
       <div class="container">
-        <div class="logo">
-          <img src="./imgs/logo.svg" alt="logo" />
-        </div>
         <div class="heading">
           <h1 class="email-header">Aircraft Fueling Request</h1>
           <p><span>Date: </span>22 JUNE 2024</p>
@@ -402,37 +278,5 @@
     <div class="btns">
       <a href="#"><span>+ Download Form</span></a>
     </div>
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="img-logo">
-          <div class="footer-logo">
-            <img src="./imgs/logo.svg" alt="logo" />
-          </div>
-          <div class="social-links">
-            <a href="#"><img src="./imgs/facebook.svg" alt="facebook" /></a>
-            <a href="#"><img src="./imgs/instagram.svg" alt="instagram" /></a>
-            <a href="#"><img src="./imgs/linkedin.svg" alt="linkedin" /></a>
-          </div>
-        </div>
-        <div class="contact-info">
-          <div class="info">
-            <div class="contact-info-calls">
-              <span class="head">Contact</span>
-              <span>el-wca.com</span>
-              <span>+966920006612</span>
-            </div>
-            <div class="contact-info-location">
-              <span class="head">Kingdom of Saudi Arabia</span>
-              <span>
-                Kingdom of Saudi Arabia - Riyadh - 6622, Al-Mahamil, Al-Fayha,
-                2961
-              </span>
-            </div>
-          </div>
-          <p class="copyright">© Copyright 2024. WCA. All rights reserved.</p>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>
