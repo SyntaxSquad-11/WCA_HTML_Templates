@@ -5,235 +5,266 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Charter Flight - Round Trip</title>
   </head>
-  <style>
-    * {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: "Montserrat", sans-serif;
+  <body
+    style="
+      font-family: 'Montserrat', sans-serif;
       font-size: 16px;
       padding: 0;
       margin: 0;
       background-color: #000000;
       padding-bottom: 60px;
-    }
-
-    .container {
-      padding-left: 15px;
-      padding-right: 15px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    /* small screnns */
-    @media (min-width: 768px) {
-      .container {
-        width: 750px;
-      }
-    }
-
-    /* Medium screnns */
-    @media (min-width: 992px) {
-      .container {
-        width: 970px;
-      }
-    }
-
-    /* Large screnns */
-    @media (min-width: 1200px) {
-      .container {
-        width: 1170px;
-      }
-    }
-
-    .header {
-      margin: 60px 0px 20px;
-    }
-
-    .header .logo {
-      width: 250px;
-      margin: 0 auto;
-    }
-
-    .header .logo img {
-      width: 100%;
-    }
-
-    .header .heading {
-      text-align: center;
-    }
-
-    .header .heading p {
-      color: #bda55d;
-      font-size: 22px;
-      font-weight: 600;
-      margin-bottom: 30px;
-    }
-
-    .header .heading hr {
-      max-width: 150px;
-      height: 3px;
-      border-color: #bda55d;
-      background-color: #bda55d;
-      margin: 0 auto;
-    }
-
-    .header .heading .email-header {
-      font-size: 30px;
-      font-weight: 500;
-      color: #fff;
-      text-transform: uppercase;
-      margin: 60px 0 30px;
-    }
-
-    @media (min-width: 768px) {
-      .header .heading .email-header {
-        font-size: 40px;
-      }
-      .header .heading hr {
-        max-width: 600px;
-        height: 3px;
-        border-color: #bda55d;
-        background-color: #bda55d;
-        margin: 0 auto;
-      }
-    }
-
-    .content .container .box-data {
-      max-width: 400px;
-      background-color: rgb(255, 255, 255, 0.1);
-      padding: 30px;
-      border-radius: 35px;
-      color: #fff;
-      margin: 0 auto;
-    }
-
-    @media (min-width: 768px) {
-      .content .container .box-data {
-        padding: 40px 50px;
-        max-width: 100%;
-        margin: 0 auto;
-      }
-    }
-
-    .content .text {
-      font-size: 18px;
-      text-transform: capitalize;
-      margin-bottom: 30px;
-    }
-    .content .title {
-      margin-bottom: 18px;
-      font-size: 18px;
-      font-weight: 200;
-    }
-    .content .title span {
-      display: block;
-      margin-bottom: 10px;
-      color: #bda55d;
-      font-weight: 500;
-    }
-    @media (min-width: 768px) {
-      .content .title span {
-        display: inline;
-      }
-    }
-    .content .comment {
-      margin-top: 40px;
-    }
-    .content .header-comment span {
-      display: block;
-      font-size: 25px;
-      font-weight: 600;
-      margin-bottom: 20px;
-    }
-    .content .header-comment hr {
-      max-width: 80px;
-      height: 4px;
-      border-color: #bda55d;
-      background-color: #bda55d;
-      border-radius: 12px;
-    }
-    .comment .data {
-      margin-top: 20px;
-      font-size: 16px;
-      font-weight: 600;
-      max-width: 800px;
-    }
-    .btns {
-      width: 100%;
-      margin: 40px auto 0px;
-      text-align: center;
-    }
-    .btns a {
-      color: #bda55d;
-      font-size: 16px;
-      font-weight: 600;
-      background-color: rgb(217 217 217 / 10%);
-      text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-      border: 2px solid #bda55d;
-    }
-    .social-links a {
-      margin: 0px 2px;
-    }
-    .social-links img {
-      width: 15px;
-    }
-  </style>
-  <body>
+      scroll-behavior: smooth;
+    "
+  >
     <!-- Header -->
-    <div class="header">
-      <div class="container">
-        <div class="heading">
-          <h1 class="email-header">Charter Flight Request - Round Trip</h1>
-          <p><span>Date: </span>22 JUNE 2024</p>
-          <hr />
+    <div class="header" style="margin: 60px 0px 20px">
+      <div
+        class="container"
+        style="
+          padding-left: 15px;
+          padding-right: 15px;
+          margin-left: auto;
+          margin-right: auto;
+        "
+      >
+        <div class="heading" style="text-align: center">
+          <h1
+            class="email-header"
+            style="
+              font-size: 30px;
+              font-weight: 500;
+              color: #fff;
+              text-transform: uppercase;
+              margin: 60px 0 30px;
+            "
+          >
+            Charter Flight Request - Round Trip
+          </h1>
+          <p
+            style="
+              color: #bda55d;
+              font-size: 22px;
+              font-weight: 600;
+              margin-bottom: 30px;
+            "
+          >
+            <span>Date: </span>22 JUNE 2024
+          </p>
+          <hr
+            style="
+              max-width: 150px;
+              height: 3px;
+              border-color: #bda55d;
+              background-color: #bda55d;
+              margin: 0 auto;
+            "
+          />
         </div>
       </div>
     </div>
 
     <!-- Box Data -->
     <div class="content">
-      <div class="container">
-        <div class="box-data">
-          <div class="text">
+      <div
+        class="container"
+        style="
+          padding-left: 15px;
+          padding-right: 15px;
+          margin-left: auto;
+          margin-right: auto;
+        "
+      >
+        <div
+          class="box-data"
+          style="
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 35px;
+            color: #fff;
+            margin: 0 auto;
+          "
+        >
+          <div
+            class="text"
+            style="
+              font-size: 18px;
+              text-transform: capitalize;
+              margin-bottom: 30px;
+            "
+          >
             we kindly Charter Flight Round Trip for the following Flight:
           </div>
           <div class="form-data">
-            <div class="title">
-              <span>Client Name:</span> SPIRE FLIGHT SOLUTIONS
+            <div
+              class="title"
+              style="margin-bottom: 18px; font-size: 18px; font-weight: 200"
+            >
+              <span
+                style="
+                  display: inline;
+                  margin-bottom: 10px;
+                  color: #bda55d;
+                  font-weight: 500;
+                "
+                >Client Name:</span
+              >
+              SPIRE FLIGHT SOLUTIONS
             </div>
-            <div class="title"><span>Client Contact Number:</span> +XXXXXX</div>
-            <div class="title">
-              <span>Client Email Address:</span> XXXX@XXXX.COM
+            <div
+              class="title"
+              style="margin-bottom: 18px; font-size: 18px; font-weight: 200"
+            >
+              <span
+                style="
+                  display: inline;
+                  margin-bottom: 10px;
+                  color: #bda55d;
+                  font-weight: 500;
+                "
+                >Client Contact Number:</span
+              >
+              +XXXXXX
             </div>
-            <div class="title"><span>Travellers:</span> XXXXXX</div>
-            <div class="title"><span>Departure Airport:</span> XXXXXX</div>
-            <div class="title"><span>Arrival Airport:</span> XXXXXX</div>
-            <div class="title"><span>Date:</span> XXXXXX</div>
-            <div class="title"><span>Return Date:</span> XXXXXX</div>
-            <div class="title">
-              <span>Preferred Type of Aircraft: </span> XXXXXX
+            <div
+              class="title"
+              style="margin-bottom: 18px; font-size: 18px; font-weight: 200"
+            >
+              <span
+                style="
+                  display: inline;
+                  margin-bottom: 10px;
+                  color: #bda55d;
+                  font-weight: 500;
+                "
+                >Client Email Address:</span
+              >
+              XXXX@XXXX.COM
+            </div>
+            <div
+              class="title"
+              style="margin-bottom: 18px; font-size: 18px; font-weight: 200"
+            >
+              <span
+                style="
+                  display: inline;
+                  margin-bottom: 10px;
+                  color: #bda55d;
+                  font-weight: 500;
+                "
+                >Travellers:</span
+              >
+              XXXXXX
+            </div>
+            <div
+              class="title"
+              style="margin-bottom: 18px; font-size: 18px; font-weight: 200"
+            >
+              <span
+                style="
+                  display: inline;
+                  margin-bottom: 10px;
+                  color: #bda55d;
+                  font-weight: 500;
+                "
+                >Departure Airport:</span
+              >
+              XXXXXX
+            </div>
+            <div
+              class="title"
+              style="margin-bottom: 18px; font-size: 18px; font-weight: 200"
+            >
+              <span
+                style="
+                  display: inline;
+                  margin-bottom: 10px;
+                  color: #bda55d;
+                  font-weight: 500;
+                "
+                >Arrival Airport:</span
+              >
+              XXXXXX
+            </div>
+            <div
+              class="title"
+              style="margin-bottom: 18px; font-size: 18px; font-weight: 200"
+            >
+              <span
+                style="
+                  display: inline;
+                  margin-bottom: 10px;
+                  color: #bda55d;
+                  font-weight: 500;
+                "
+                >Date:</span
+              >
+              XXXXXX
+            </div>
+            <div
+              class="title"
+              style="margin-bottom: 18px; font-size: 18px; font-weight: 200"
+            >
+              <span
+                style="
+                  display: inline;
+                  margin-bottom: 10px;
+                  color: #bda55d;
+                  font-weight: 500;
+                "
+                >Return Date:</span
+              >
+              XXXXXX
+            </div>
+            <div
+              class="title"
+              style="margin-bottom: 18px; font-size: 18px; font-weight: 200"
+            >
+              <span
+                style="
+                  display: inline;
+                  margin-bottom: 10px;
+                  color: #bda55d;
+                  font-weight: 500;
+                "
+                >Preferred Type of Aircraft:</span
+              >
+              XXXXXX
             </div>
           </div>
 
           <!-- Comment -->
-          <div class="comment">
+          <div class="comment" style="margin-top: 40px">
             <div class="header-comment">
-              <span>Comment:</span>
-              <hr />
+              <span
+                style="
+                  display: block;
+                  font-size: 25px;
+                  font-weight: 600;
+                  margin-bottom: 20px;
+                "
+                >Comment:</span
+              >
+              <hr
+                style="
+                  max-width: 80px;
+                  height: 4px;
+                  border-color: #bda55d;
+                  background-color: #bda55d;
+                  border-radius: 12px;
+                  margin: 1px;
+                "
+              />
             </div>
-            <div class="data">
+            <div
+              class="data"
+              style="
+                margin-top: 20px;
+                font-size: 16px;
+                font-weight: 600;
+                max-width: 800px;
+              "
+            >
               Experience the extraordinary as our private fleet services grant
               your wishes, effortlessly unveiling the gateway to a phenomenal
               world.
@@ -243,8 +274,24 @@
       </div>
     </div>
     <!-- Action Buttons -->
-    <div class="btns">
-      <a href="#"><span>+ Download Form</span></a>
+    <div
+      class="btns"
+      style="width: 100%; margin: 40px auto 0px; text-align: center"
+    >
+      <a
+        href="#"
+        style="
+          color: #bda55d;
+          font-size: 16px;
+          font-weight: 600;
+          background-color: rgba(217, 217, 217, 0.1);
+          text-decoration: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          border: 2px solid #bda55d;
+        "
+        ><span>+ Download Form</span></a
+      >
     </div>
   </body>
 </html>
